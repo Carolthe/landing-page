@@ -6,11 +6,14 @@ export default {
   ],
   theme: {
     extend: {    
-        backgroundImage: {
-      'hero-pattern': "url('/img/Fundo.png')",
+      colors: {
+        'green': '#458c7e',
+        'greenclaro': '#96cfcf'
     }
     },
   },
-  plugins: [],
+  plugins: [
+  
+  ],
 }
 
