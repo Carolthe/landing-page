@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {    
+      backgroundImage: {
+        'graphic-pattern': "url('../img/Graphic.png')",
+      },
       colors: {
         'green': '#458c7e',
         'greenclaro': '#96cfcf'
