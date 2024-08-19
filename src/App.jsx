@@ -11,6 +11,9 @@ import Graphic from './img/Graphic.png'
 import Photography from './img/Photography.png'
 import Imgs from './components/Imgs'
 import Foteer from './components/Foteer'
+import Perfil1 from './img/Perfil1.png'
+import Perfil2 from './img/Perfil2.png'
+import Perfil3 from './img/Perfil3.png'
 
 function App() {
   return (
@@ -23,9 +26,9 @@ function App() {
 <Information />
 <ImgFundo imgfundo={Graphic} />
 <ImgFundo imgfundo={Photography} />
-<Comentarios />
-<Comentarios />
-<Comentarios />
+<Comentarios perfil={Perfil1} />
+<Comentarios perfil={Perfil2} />
+<Comentarios perfil={Perfil3} />
 <Imgs />
 <Foteer />
 </> 
