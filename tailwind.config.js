@@ -12,6 +12,9 @@ export default {
       colors: {
         'green': '#458c7e',
         'greenclaro': '#96cfcf'
+    },
+    fontFamily: {
+      fraunces: ['Fraunces']
     }
     },
   },
