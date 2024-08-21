@@ -14,7 +14,8 @@ export default {
         'greenclaro': '#96cfcf'
     },
     fontFamily: {
-      fraunces: ['Fraunces']
+      fraunces: ['Fraunces'],
+      barlow: ['Barlow']
     }
     },
   },

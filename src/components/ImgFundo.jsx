@@ -6,7 +6,7 @@ export default function imgFundo (props){
         <img src={props.imgfundo} className='h-full w-full relative ' />
        <p  className="absolute bottom-48 font-fraunces text-3xl font-bold text-emerald-800 ">Graphic Desing</p>
        
-       <p className="bottom-24 absolute mx-5 text-center"> Lorem is totam non quam, vel deleniti consequatur minus architecto laudantium inventore omnis eum soluta consectetur? Modi nobis enim consequatur!  </p>
+       <p className="bottom-24 absolute mx-8 text-center font-semibold font-barlow-600 text-emerald-900 text-lg top-[500px] ">{props.paragraph} </p>
    
    </div> 
    )

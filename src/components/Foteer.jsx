@@ -7,13 +7,13 @@ import Pinterest from '../img/Pinterest.png'
 export default function Foteer (){
     return(
         <div className=" bg-greenclaro grid justify-center ">
-            <p className="mx-28 mt-16 mb-10">Sannyside</p>
-            <div className="flex gap-20 mb-10">
+            <p className="mx-28 mt-16 mb-10 text-4xl font-bold text-emerald-700 font-barlow-600 ">sunnyside</p>
+            <div className="flex gap-14 mb-10 justify-center font-semibold text-lg text-green font-barlow-600">
             <p>About</p>
             <p>Services</p>
             <p>Projects</p>
             </div>
-            <div className="flex justify-center gap-10 mb-28 mt-10">
+            <div className="flex justify-center gap-10 mb-28 mt-8">
             <img className='w-5' src={Facebook} />
             <img src={Instagram} />
             <img src={Twitter} />
