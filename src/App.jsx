@@ -14,6 +14,8 @@ import Foteer from './components/Foteer'
 import Perfil1 from './img/Perfil1.png'
 import Perfil2 from './img/Perfil2.png'
 import Perfil3 from './img/Perfil3.png'
+import CerejaDesktop from './img/CerejaDesktop.png'
+import DesktopFundo from './components/DesktopFundo'
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
 <div className='md:flex'>
 <ImgFundo imgfundo={Graphic}  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
 <ImgFundo imgfundo={Photography} paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
+<DesktopFundo imgFundoDesktop={CerejaDesktop} />
 </div>
 <div className='md:flex'>
 <Comentarios perfil={Perfil1} title="CLIENT TESTIMONIALS" paragraph="We put our trust in Sunnyside and they dellivered, making sure our needs were met and seadlines were always hit." name="Emily R." profession="Marketing Director"  />
