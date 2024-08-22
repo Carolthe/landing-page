@@ -29,7 +29,7 @@ function App() {
 <Information title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
 </div>
 <div className='md:flex'>
-<ImgFundo imgfundo={Graphic} paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
+<ImgFundo imgfundo={Graphic}  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
 <ImgFundo imgfundo={Photography} paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
 </div>
 <div className='md:flex'>
