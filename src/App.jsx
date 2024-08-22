@@ -16,12 +16,13 @@ import Perfil3 from './img/Perfil3.png'
 import CerejaDesktop from './img/CerejaDesktop.png'
 import DesktopFundo from './components/DesktopFundo'
 import DesingOvoDesk from './components/DesingOvoDesk'
-import OvoDesktop from './img/OvoDesktop.png'
+import OvoOvoDesktop from './img/OvoOvoDesktop.png'
 import OvoMobile from './components/OvoMobile'
 import CopoDesktop from './components/CopoDesktop'
 import DesktopCopo from './img/DesktopCopo.png'
 import LaranjaDesktop from './img/LaranjaDesktop.png'
 import ImgsDesktop from './components/ImgsDesktop'
+import InformationDesktop from './components/InformationDesktop'
 
 function App() {
   return (
@@ -30,14 +31,20 @@ function App() {
 <Header />
 <div className='md:flex'>
 <OvoMobile ovoMobile={FundoOvo}  />
-<DesingOvoDesk ovoDesktop={OvoDesktop} />
 <Information className="" title="Transform your brand" paragraph="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
+
 </div>
-<div className='md:flex'>
-<Copo imgcopo={FundoCopo} />
+<div className='md:flex mt-[40%] '>
+<InformationDesktop titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
+<DesingOvoDesk ovoDesktop={OvoOvoDesktop}  />
+</div>
 <CopoDesktop copo={DesktopCopo} />
 <Information title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
+<div className='md:flex'>
+<Copo imgcopo={FundoCopo} />
+<InformationDesktop titleDesktop="Stand out to the right audience" paragraphDesktop="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
 </div>
+
 <div className='md:flex'>
 <ImgFundo imgfundo={Graphic}  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
 <ImgFundo imgfundo={Photography} paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
