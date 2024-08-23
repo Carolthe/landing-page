@@ -38,11 +38,14 @@ function App() {
 <InformationDesktop titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
 <DesingOvoDesk ovoDesktop={OvoOvoDesktop}  />
 </div>
+<div className='flex'>
 <CopoDesktop copo={DesktopCopo} />
-<Information title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
-<div className='md:flex'>
-<Copo imgcopo={FundoCopo} />
 <InformationDesktop titleDesktop="Stand out to the right audience" paragraphDesktop="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
+
+</div>
+<div className=''>
+<Copo imgcopo={FundoCopo} />
+<Information title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
 </div>
 
 <div className='md:flex'>
@@ -53,8 +56,8 @@ function App() {
 
 </div>
 <div className='md:flex'>
-<Comentarios perfil={Perfil1} title="CLIENT TESTIMONIALS" paragraph="We put our trust in Sunnyside and they dellivered, making sure our needs were met and seadlines were always hit." name="Emily R." profession="Marketing Director"  />
-<Comentarios perfil={Perfil2} paragraph="Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience." name="Thomas S." profession="Chief Operating Officer" />
+<Comentarios perfil={Perfil1}  paragraph="We put our trust in Sunnyside and they dellivered, making sure our needs were met and seadlines were always hit." name="Emily R." profession="Marketing Director"  />
+<Comentarios perfil={Perfil2} title="CLIENT TESTIMONIALS" paragraph="Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience." name="Thomas S." profession="Chief Operating Officer" />
 <Comentarios perfil={Perfil3} paragraph="Increble end result! Our sales increased over 400% when we worked with Sunnyside, Highly recommended!" name="Jennie F." profession="Business Owner" />
 </div>
 <Imgs />

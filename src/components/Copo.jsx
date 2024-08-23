@@ -1,5 +1,5 @@
 export default function Copo  (props) {
     return(
-        <img src={props.imgcopo} className="hidden md:block " />
+        <img src={props.imgcopo} className=" md:hidden  " />
     )
 }

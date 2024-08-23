@@ -5,12 +5,14 @@ import AçucarDesktop from '../img/AçucarDesktop.png'
 
 export default function ImgsDesktop (){
     return(
-        <div className='w-80 hidden md:block'>
-            
+        <div className='hidden md:block'>
+        
+        <div className='flex w-[368px]'>
             <img src={LaDesktop} />
             <img src={ConeDesktop} />
             <img src={AçucarDesktop} />
             <img src={MilkDesktop} />
-        </div>
+      </div>  
+          </div>
     )
 }
