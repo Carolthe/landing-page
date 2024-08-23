@@ -5,7 +5,7 @@ import AçucarDesktop from '../img/AçucarDesktop.png'
 
 export default function ImgsDesktop (){
     return(
-        <div className='flex w-80'>
+        <div className='w-80 hidden md:block'>
             
             <img src={LaDesktop} />
             <img src={ConeDesktop} />

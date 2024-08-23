@@ -46,10 +46,10 @@ function App() {
 </div>
 
 <div className='md:flex'>
-<ImgFundo imgfundo={Graphic}  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
-<ImgFundo imgfundo={Photography} paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
-<DesktopFundo imgFundoDesktop={CerejaDesktop} />
-<DesktopFundo imgFundoDesktop={LaranjaDesktop} />
+<ImgFundo imgfundo={Graphic} titleFundo="Graphic Design"  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
+<ImgFundo imgfundo={Photography} titleFundo="Photography" paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
+<DesktopFundo imgFundoDesktop={CerejaDesktop} titleFundoDesktop="Graphic Design" paragraphFundoDesktop="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
+<DesktopFundo imgFundoDesktop={LaranjaDesktop} titleFundoDesktop="Photography" paragraphFundoDesktop="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
 
 </div>
 <div className='md:flex'>
