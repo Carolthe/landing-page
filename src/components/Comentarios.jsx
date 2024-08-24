@@ -1,6 +1,6 @@
 export default function Comentarios (props){
     return(
-        <div className="mt-10 grid justify-items-center text-center mx-8 " >
+        <div className="mt-10 grid justify-items-center text-center mx-8 md:hidden" >
             <div>
             <p className="text-xl  text-gray-400 tracking-widest font-bold font-fraunces mt-5  mb-10">{props.title}</p>
        </div> 
