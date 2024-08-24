@@ -7,7 +7,7 @@ export default function ImgsDesktop (){
     return(
         <div className='hidden md:block'>
         
-        <div className='flex w-[368px]'>
+        <div className='flex w-[25%] '>
             <img src={LaDesktop} />
             <img src={ConeDesktop} />
             <img src={AçucarDesktop} />

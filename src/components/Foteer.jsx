@@ -6,7 +6,7 @@ import Pinterest from '../img/Pinterest.png'
 
 export default function Foteer (){
     return(
-        <div className=" bg-greenclaro grid justify-center ">
+        <div className=" bg-greenclaro grid justify-center  ">
             <p className="mx-28 mt-16 mb-10 text-4xl font-bold text-emerald-700 font-barlow-600 ">sunnyside</p>
             <div className="flex gap-14 mb-10 justify-center font-semibold text-lg text-green font-barlow-600">
             <p>About</p>

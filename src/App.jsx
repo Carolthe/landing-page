@@ -37,11 +37,11 @@ function App() {
 <InformationMobile className="" title="Transform your brand" paragraph="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
 
 </div>
-<div className='md:flex mt-[40%] '>
+<div className='md:flex mt-[40%] w-[100%] '>
 <InformationDesktop titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
 <DesingOvoDesk ovoDesktop={OvoOvoDesktop}  />
 </div>
-<div className='flex'>
+<div className='flex mb-[15%] w-[100%]'>
 <CopoDesktop copo={DesktopCopo} />
 <InformationDesktop titleDesktop="Stand out to the right audience" paragraphDesktop="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
 
@@ -51,12 +51,12 @@ function App() {
 <InformationMobile title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
 </div>
 
-<div className='md:flex'>
+
 <ImgFundoMobile imgfundo={Graphic} titleFundo="Graphic Design"  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
 <ImgFundoMobile imgfundo={Photography} titleFundo="Photography" paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
+<div className='md:flex '>
 <DesktopFundo imgFundoDesktop={CerejaDesktop} titleFundoDesktop="Graphic Design" paragraphFundoDesktop="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
 <DesktopFundo imgFundoDesktop={LaranjaDesktop} titleFundoDesktop="Photography" paragraphFundoDesktop="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
-
 </div>
 <div className=''>
 <Comentarios perfil={Perfil1} title="CLIENT TESTIMONIALS" paragraph="We put our trust in Sunnyside and they dellivered, making sure our needs were met and seadlines were always hit." name="Emily R." profession="Marketing Director"  />
