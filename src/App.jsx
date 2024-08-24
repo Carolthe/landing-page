@@ -1,10 +1,10 @@
 import './App.css'
 import Header from './components/Header'
-import Information from './components/Information'
+import InformationMobile from './components/InformationMobile'
 import FundoOvo from './img/FundoOvo.png'
 import FundoCopo from './img/FundoCopo.png'
-import Copo from './components/Copo'
-import ImgFundo from './components/ImgFundo'
+import CopoMobile from './components/CopoMobile'
+import ImgFundoMobile from './components/ImgFundoMobile'
 import Comentarios from './components/Comentarios'
 import Graphic from './img/Graphic.png'
 import Photography from './img/Photography.png'
@@ -26,6 +26,7 @@ import InformationDesktop from './components/InformationDesktop'
 import ComentariosDesktop from './components/ComentariosDesktop'
 import TitleComentariosDesktop from './components/TitleComentariosDesktop'
 
+
 function App() {
   return (
 
@@ -33,7 +34,7 @@ function App() {
 <Header />
 <div className='md:flex'>
 <OvoMobile ovoMobile={FundoOvo}  />
-<Information className="" title="Transform your brand" paragraph="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
+<InformationMobile className="" title="Transform your brand" paragraph="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
 
 </div>
 <div className='md:flex mt-[40%] '>
@@ -46,13 +47,13 @@ function App() {
 
 </div>
 <div className=''>
-<Copo imgcopo={FundoCopo} />
-<Information title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
+<CopoMobile imgcopo={FundoCopo} />
+<InformationMobile title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
 </div>
 
 <div className='md:flex'>
-<ImgFundo imgfundo={Graphic} titleFundo="Graphic Design"  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
-<ImgFundo imgfundo={Photography} titleFundo="Photography" paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
+<ImgFundoMobile imgfundo={Graphic} titleFundo="Graphic Design"  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
+<ImgFundoMobile imgfundo={Photography} titleFundo="Photography" paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
 <DesktopFundo imgFundoDesktop={CerejaDesktop} titleFundoDesktop="Graphic Design" paragraphFundoDesktop="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
 <DesktopFundo imgFundoDesktop={LaranjaDesktop} titleFundoDesktop="Photography" paragraphFundoDesktop="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
 

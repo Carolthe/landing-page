@@ -3,6 +3,7 @@ body{
     background-image: url(./img/Fundo.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 
 @media screen and (min-width: 800px) {
