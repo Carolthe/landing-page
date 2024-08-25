@@ -14,8 +14,6 @@ body{
 @media screen and (min-width: 800px) {
 
 body{
-    background-image: url(./img/image-header.png);
-    background-size: 100%;
-       
+    background-image: url(./img/image-header.png);    
 }
 }

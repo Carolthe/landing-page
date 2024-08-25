@@ -37,9 +37,9 @@ function App() {
 <InformationMobile className="" title="Transform your brand" paragraph="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
 
 </div>
-<div className='md:flex mt-[40%] w-[100%] '>
-<InformationDesktop titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
-<DesingOvoDesk ovoDesktop={OvoOvoDesktop}  />
+<div className='hidden md:block mt-[39.5%]'>
+<InformationDesktop titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." ovoDesktop={OvoOvoDesktop} />
+{/* <DesingOvoDesk ovoDesktop={OvoOvoDesktop}  /> */}
 </div>
 <div className='flex mb-[15%] w-[100%]'>
 <CopoDesktop copo={DesktopCopo} />
