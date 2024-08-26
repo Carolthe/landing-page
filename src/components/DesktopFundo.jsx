@@ -1,7 +1,7 @@
 export default function DesktopFundo (props){
     return(
         
-        <div className="hidden md:block relative bottom-[240px]">
+        <div className="hidden md:block relative bottom-[222px]">
         <img src={props.imgFundoDesktop}  className='relative w-[800px]'/> 
         <div className="flex justify-center ">
         <p className="absolute bottom-[38%] font-fraunces text-3xl font-bold text-emerald-800 ">{props.titleFundoDesktop}</p>

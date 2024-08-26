@@ -37,12 +37,11 @@ function App() {
 <InformationMobile className="" title="Transform your brand" paragraph="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
 </div>
 
-<InformationDesktop titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." ovoDesktop={OvoOvoDesktop} />
-{/* <DesingOvoDesk ovoDesktop={OvoOvoDesktop}  /> */}
-<div className='flex mb-[15%] w-[100%]'>
+{/* <InformationDesktop titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." /> */}
+<DesingOvoDesk ovoDesktop={OvoOvoDesktop} titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you."  />
+
 <CopoDesktop copoDesktopp={DesktopCopo} titleDesktopp="Stand out to the right audience" paragraphDesktopp="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
 
-</div>
 <div className=''>
 <CopoMobile imgcopo={FundoCopo} />
 <InformationMobile title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
