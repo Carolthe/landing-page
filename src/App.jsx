@@ -1,11 +1,30 @@
 import './App.css'
+//Components import Mobile
 import HeaderMobile from './components/HeaderMobile'
-import Header from './components/Header'
 import InformationMobile from './components/InformationMobile'
-import FundoOvo from './img/FundoOvo.png'
-import FundoCopo from './img/FundoCopo.png'
+import OvoMobile from './components/OvoMobile'
+
+//Imagens import Moblibe
 import CopoMobile from './components/CopoMobile'
 import ImgFundoMobile from './components/ImgFundoMobile'
+
+//Componets import Desktop
+import HeaderDesktop from './components/HeaderDesktop'
+import DesktopFundo from './components/DesktopFundo'
+import InformationDesktop from './components/InformationDesktop'
+import InformationCopoDesktop from './components/InformationCopoDesktop'
+import ImgsDesktop from './components/ImgsDesktop'
+import ComentariosDesktop from './components/ComentariosDesktop'
+import TitleComentariosDesktop from './components/TitleComentariosDesktop'
+
+//Imagens import Desktop
+import OvoOvoDesktop from './img/OvoOvoDesktop.png'
+import FundoOvo from './img/FundoOvo.png'
+import FundoCopo from './img/FundoCopo.png'
+import DesktopCopo from './img/DesktopCopo.png'
+
+
+
 import Comentarios from './components/Comentarios'
 import Graphic from './img/Graphic.png'
 import Photography from './img/Photography.png'
@@ -14,41 +33,33 @@ import Foteer from './components/Foteer'
 import Perfil1 from './img/Perfil1.png'
 import Perfil2 from './img/Perfil2.png'
 import Perfil3 from './img/Perfil3.png'
-import CerejaDesktop from './img/CerejaDesktop.png'
-import DesktopFundo from './components/DesktopFundo'
-import DesingOvoDesk from './components/DesingOvoDesk'
-import OvoOvoDesktop from './img/OvoOvoDesktop.png'
-import OvoMobile from './components/OvoMobile'
-import CopoDesktop from './components/CopoDesktop'
-import DesktopCopo from './img/DesktopCopo.png'
-import LaranjaDesktop from './img/LaranjaDesktop.png'
-import ImgsDesktop from './components/ImgsDesktop'
-import InformationDesktop from './components/InformationDesktop'
-import ComentariosDesktop from './components/ComentariosDesktop'
-import TitleComentariosDesktop from './components/TitleComentariosDesktop'
+
+
+
+
+
+
+
 
 
 
 function App() {
   return (
-
 <>
+                                {/* Components Mobile */}
 <HeaderMobile />
-<Header />
-<div className='md:flex'>
 <OvoMobile ovoMobile={FundoOvo}  />
 <InformationMobile className="" title="Transform your brand" paragraph="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
-</div>
-
-{/* <InformationDesktop titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." /> */}
-<DesingOvoDesk ovoDesktop={OvoOvoDesktop} titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you."  />
-
-<CopoDesktop copoDesktopp={DesktopCopo} titleDesktopp="Stand out to the right audience" paragraphDesktopp="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
-
-<div className=''>
 <CopoMobile imgcopo={FundoCopo} />
 <InformationMobile title="Stand out to the right audience" paragraph="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
-</div>
+
+
+                                {/* Components Desktop */}
+<HeaderDesktop />
+<InformationDesktop ovoDesktop={OvoOvoDesktop} titleDesktop="Transform your brand " paragraphDesktop="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you."  />
+<InformationCopoDesktop copoDesktopp={DesktopCopo} titleDesktopp="Stand out to the right audience" paragraphDesktopp="Using a collaborative formula of designers, researchers, photographers, videographes, and copywriters, we'll bulind and extend your brand in digital places." />
+
+
 
 
 <ImgFundoMobile imgfundo={Graphic} titleFundo="Graphic Design"  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />

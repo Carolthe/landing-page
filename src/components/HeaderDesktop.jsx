@@ -1,4 +1,4 @@
-export default function Header (){
+export default function HeaderDesktop (){
     return(
     <div  className="hidden md:block">
         <div className="h-screen bg-cover bg-center bg-[url('./img/HeaderFundo.png')]">
