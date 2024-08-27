@@ -1,4 +1,4 @@
-export default function imgFundoMobile (props){
+export default function DesingImgMobile(props){
     return(
     <div  className="relative grid justify-items-center  md:hidden  ">
         <img src={props.imgfundo} className='h-full w-full relative ' />

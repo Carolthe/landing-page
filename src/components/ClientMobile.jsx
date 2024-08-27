@@ -1,4 +1,4 @@
-export default function Comentarios (props){
+export default function ClientMobile (props){
     return(
         <div className="mt-10 grid justify-items-center text-center mx-8 md:hidden" >
             <div>

@@ -1,4 +1,4 @@
-export default function ComentariosDesktop (props){
+export default function ClientsDesktop (props){
     return(
     
     <div className=" w-[28%] p-[2%] mt-[-3%] mb-[9%] hidden md:block  ">

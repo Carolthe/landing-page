@@ -1,6 +1,5 @@
-export default function DesktopFundo (){
-    return(
-        
+export default function DesingImgDesktop (){
+    return(  
     <div className="hidden md:flex mb-[20%]">
         <div className="h-[120%] w-[66.6%] bg-cover bg-center bg-[url('./img/CerejaDesktop.png')] content-center"> 
         <div className="justify-items-center grid mt-[40%] mb-[0.4%] ">
