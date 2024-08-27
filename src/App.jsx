@@ -1,4 +1,5 @@
 import './App.css'
+import HeaderMobile from './components/HeaderMobile'
 import Header from './components/Header'
 import InformationMobile from './components/InformationMobile'
 import FundoOvo from './img/FundoOvo.png'
@@ -27,10 +28,12 @@ import ComentariosDesktop from './components/ComentariosDesktop'
 import TitleComentariosDesktop from './components/TitleComentariosDesktop'
 
 
+
 function App() {
   return (
 
 <>
+<HeaderMobile />
 <Header />
 <div className='md:flex'>
 <OvoMobile ovoMobile={FundoOvo}  />
@@ -51,8 +54,7 @@ function App() {
 <ImgFundoMobile imgfundo={Graphic} titleFundo="Graphic Design"  paragraph="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
 <ImgFundoMobile imgfundo={Photography} titleFundo="Photography" paragraph="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
 <div className='md:flex '>
-<DesktopFundo imgFundoDesktop={CerejaDesktop} titleFundoDesktop="Graphic Design" paragraphFundoDesktop="Great desing makes you memorable. We deliver artwork that underscores you brand message and captures potential clients' attention." />
-<DesktopFundo imgFundoDesktop={LaranjaDesktop} titleFundoDesktop="Photography" paragraphFundoDesktop="Increase your credicility by getting the most stunning, high-quality photos thay improve your business image." />
+<DesktopFundo />
 </div>
 <div className=''>
 <Comentarios perfil={Perfil1} title="CLIENT TESTIMONIALS" paragraph="We put our trust in Sunnyside and they dellivered, making sure our needs were met and seadlines were always hit." name="Emily R." profession="Marketing Director"  />

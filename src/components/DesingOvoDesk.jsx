@@ -1,6 +1,6 @@
 export default function DesingOvoDesk (props){
     return(
-        <div className="hidden md:flex mt-[39.5%] ">
+        <div className="hidden md:flex">
     
     <div className=" justify-items-center grid mt-[10%] w-[86.1%] ">
         <p className="text-[220%] font-bold text-center mx-[7%] font-fraunces">{props.titleDesktop}</p>
