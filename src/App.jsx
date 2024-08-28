@@ -1,6 +1,7 @@
 import './App.css'
 //Components import Mobile
 import HeaderMobile from './components/HeaderMobile'
+// import SidebarMobile from './components/SidebarMobile'
 import InformationMobile from './components/InformationMobile'
 import OvoMobile from './components/OvoMobile'
 import CopoMobile from './components/CopoMobile'
@@ -40,11 +41,13 @@ import Perfil2 from './img/Perfil2.png'
 import Perfil3 from './img/Perfil3.png'
 import FoteerDesktop from './components/FoteerDesktop'
 
+
 function App() {
   return (
 <>
                         {/* Components Mobile */}
 <HeaderMobile />
+{/* <SidebarMobile /> */}
 <OvoMobile ovoMobile={FundoOvo}  />
 <InformationMobile className="" title="Transform your brand" 
 paragraph="We are a full-service creative agency specializang in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you." />
