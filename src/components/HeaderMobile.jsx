@@ -17,28 +17,26 @@ export default function HeaderMobile (){
    
    
    <div className={` top-0 left-0 
-     ${sidebarOpen ? 'w-[220px] rounded-lg h-[340px] bg-white  '
+     ${sidebarOpen ? 'w-[220px] rounded-lg h-[340px] bg-white '
      : 'w-0'}transition-width duration-300 `}>
-    
-    
-
-    <button className="" onClick={() => setSidebarOpen(!sidebarOpen)}>
+    <a className="" onClick={() => setSidebarOpen(!sidebarOpen)}>
     <img src={SidebarMobile} className="w-6 mt-3 ml-2 mr-[2%] flex justify-end "/>
      {sidebarOpen ?
-    <>
+    <div className="">
     <ButtonSidebarMobile menu="About" />
     <ButtonSidebarMobile menu="Services" />
     <ButtonSidebarMobile menu="Projects" />
     <ButtonSidebarMobile menu="Contact" />
-    </>
+    </div>
     : ''}
-     </button>
+     </a>
   </div>
    </div> 
-  <div className="grid justify-items-center">
-   <h2 className="mt-28 text-[270%]  text-center text-white font-fraunces font-bold  ">WE ARE CREATIVES</h2>
-   <img className="mt-[40%] w-[40%]  " src={DownArrow}/>
-      </div>  </div>
+  <div className="grid justify-items-center absolute inset-12">
+   <h2 className="my-40 text-[270%]  text-center text-white font-fraunces font-bold  ">WE ARE CREATIVES</h2>
+   <img className="mb-52  w-[40%]  " src={DownArrow}/>
+      </div>
+        </div>
         </div>
     )
 }

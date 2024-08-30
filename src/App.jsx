@@ -45,7 +45,7 @@ import FoteerDesktop from './components/FoteerDesktop'
 function App() {
   return (
 <>
-                        {/* Components Mobile */}
+{/* Components Mobile */}
 <HeaderMobile />
 {/* <SidebarMobile /> */}
 <OvoMobile ovoMobile={FundoOvo}  />
@@ -74,7 +74,7 @@ name="Jennie F."
 profession="Business Owner" />
 <ImgsFoteerMobile />
 <FoteerMobile />
-                         {/* Components Desktop */}
+{/* Components Desktop */}
 <HeaderDesktop />
 <InformationDesktop ovoDesktop={OvoOvoDesktop} 
 titleDesktop="Transform your brand " 
