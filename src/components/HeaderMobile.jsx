@@ -2,26 +2,27 @@ import { useState } from "react"
 import SidebarMobile from '../img/SidebarMobile.png'
 import DownArrow from '../img/DownArrow.png'
 import ButtonSidebarMobile from "./ButtonSidebarMobile"
-
+import XfecharMobile from "..img/XfecharMobile.png"
 
 export default function HeaderMobile (){
     const [sidebarOpen, setSidebarOpen]= useState (false)
-
+    const [iconSidebar, setIconSidebar]= useState (false)
     return(
         <div  className="md:hidden">
         <div className="h-screen bg-cover bg-center bg-[url('./img/HeaderMobileFundo.png')]">
-    
     <div className="flex justify-between p-5">
     <h1 className="text-white text-[150%] font-bold font-fraunces ">sunnyside</h1>
-   
-   
-   
-   <div className={` top-0 left-0 
+    <div className={` top-0 left-0 
      ${sidebarOpen ? 'w-[220px] rounded-lg h-[340px] bg-white '
      : 'w-0'}transition-width duration-300 `}>
-    <a className="" onClick={() => setSidebarOpen(!sidebarOpen)}>
-    <img src={SidebarMobile} className="w-6 mt-3 ml-2 mr-[2%] flex justify-end "/>
-     {sidebarOpen ?
+    
+
+    <a onClick={() => setSidebarOpen(!sidebarOpen)}>
+    {iconSidebar ? <img src={SidebarMobile} className="w-6 mt-3 ml-2 mr-[2%] flex justify-end "/>
+    : <img src={XfecharMobile} />}
+    
+    
+    {sidebarOpen ?
     <div className="">
     <ButtonSidebarMobile menu="About" />
     <ButtonSidebarMobile menu="Services" />
